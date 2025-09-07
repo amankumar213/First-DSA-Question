@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: red;
+            font-size: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b><u>Hello Javascript</u></b></h1>
+    <script>
+        
+        // for (let char of "Amankumar") {
+        //     console.log(char);
+
+        // }
+
+        
+        // let nums = [10, 20, 30, 40, 50];
+        // nums.forEach((n) => {
+        //     console.log(n);
+        // });
+        // Hoisting -> here is the first call/declare the function name then it implement.
+        // name();
+
+        // function name() {
+        //     console.log("Hello Javascript.");
+        // }
+
+        // Find the GCD of two numbers
+
+        // var div = 56;
+        // var dis = 98;
+        // while (div % dis != 0) {
+        //     var rem = div % dis;
+        //     div = dis;
+        //     dis = rem
+        // }
+        // console.log(rem);
+
+        // Find the maximum number in an array
+        // let arr = [1, 2, -3, 4, -5];
+        // var max = arr[0];
+        // for (var i = 0; i <= arr.length - 1; i++) {
+        //     if (max < arr[i]) {
+        //         max = arr[i];
+        //     }
+        // }
+        // console.log(max);
+        
+        //write a program palindrome number
+        // var num = 121; 
+        // var rev = 0;
+        // var temp = num;
+        // while (num > 0) {
+        //     var rem = num % 10;
+        //     rev = rev * 10 + rem;
+        //     num = Math.floor(num / 10);
+        // }
+        // if (temp == rev) {
+        //     console.log("Palindrome number");
+        // } else {
+        //     console.log("Not a Palindrome number");
+        // }
+
+        // write a program for Armstrong number
+        // var num = 153;
+        // var temp = num;
+        // var sum = 0;
+        // while (num > 0) {
+        //     var rem = num % 10;
+        //     sum = sum + rem * rem * rem;
+        //     num = Math.floor(num / 10);
+        // }
+        // if (temp == sum) {
+        //     console.log("Armstrong number");
+        // } else {
+        //     console.log("Not a Armstrong number");
+        // }
+
+        // write a program for fibonacci series
+        var n = 10;
+        var a = 0, b = 1;
+        var c;
+        for (var i = 1; i <= n; i++) {
+            console.log(a);
+            c = a + b;
+            a = b;
+            b = c;
+        }
+        console.log(c);
+
+    </script>
+</body>
+
+</html>
